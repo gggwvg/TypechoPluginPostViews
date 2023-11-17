@@ -1,6 +1,6 @@
 <?php
 
-namespace TypechoPlugin\PostViews;
+namespace TypechoPlugin\TypechoPluginPostViews;
 
 use Typecho\Plugin\PluginInterface;
 use Typecho\Widget\Helper\Form;
@@ -10,9 +10,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) {
 }
 
 /**
- * PostViews
+ * 文章访问的时候，contents 表的 views 字段自增 1。注意：表中要新建 views 字段，不优雅
  *
- * @package 文章访问的时候，contents 表的 views 字段自增 1。注意：表中要新建 views 字段，不优雅
+ * @package PostViews
  * @author gggwvg
  * @version 1.0.0
  * @link https://jian.wang
